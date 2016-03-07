@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web-технологии</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	<link rel="stylesheet" href="index.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   </head>
+   <body>
+   <div class="header">
+       <header>
+          <a href="index.html"><img id="picture" src="webLogo.png" alt="Изображение логотипа" width="150" /></a>
+          <h1>Основы Web-технологий</h1>
+          <nav>
+		  <div class="mainMenu">
+            <ul>
+              <li><a href="index.html"> Главная</a></li>
+              <li>
+                <a href="technologies.html">Web-технологии</a>
+                <ul>
+                  <li><a href="html5.html"> HTML5</a></li>
+                  <li><a href="css3.html">CSS3</a></li>
+                   <li><a href="javaScript.html">JavaScript</a></li>
+                </ul>
+              </li>
+              <li><a href="calculator.html"> Калькулятор</a></li>
+              <li><a href="test.html"> Тест</a></li>
+            </ul>
+			</div>
+          </nav>
+        </header>
+		</div>
+		<div class="main">
+          <form>
+            <div>Какой тег предназначен для создания ссылок </div>
+              <input type="radio" name="link" />&lt;a&gt;<br />
+              <input type="radio" name="link" />&lt;a/&gt;<br />
+              <input type="radio" name="link" />&lt;ref&gt;<br />
+              <input type="radio" name="link" />&lt;ref/&gt;<br />
+        
+           <div>Какой тег предназначен для создания нумерованного списка: </div> 
+              <input  type="radio" name="numberedList" />&lt;li&gt;<br />
+              <input type="radio" name="numberedList" />&lt;dl&gt;<br />
+              <input type="radio" name="numberedList" />&lt;ol&gt;<br />
+              <input  type="radio" name="numberedList" />&lt;ul&gt;<br />
+        
+           <div>Какой тег предназначендля передачи служебной информации браузеру:</div> 
+              <input type="radio" name="inform" />&lt;info&gt;<br />
+              <input type="radio" name="inform" />&lt;info/&gt;<br />
+              <input  type="radio" name="inform" />&lt;meta&gt;<br />
+              <input  type="radio" name="inform" />&lt;meta/&gt;<br />
+        
+           <div>Какие теги используются при создании таблицы:</div>
+              <input  type="checkbox" name="table" /> &lt;bodyt&gt;<br />
+              <input type="checkbox" name="table" /> &lt;td&gt;<br />
+              <input type="checkbox" name="table" /> &lt;goupcol&gt;<br />
+              <input type="checkbox" name="table" /> &lt;col&gt;<br />
+        
+           <div>Какие атрибуты используются при создании форм:</div>  
+              <input type="checkbox" name="form" /> autocomplete<br />
+              <input type="checkbox" name="form" /> action<br />
+              <input type="checkbox" name="form" /> charset<br />
+              <input type="checkbox" name="form" /> validate<br />
+            
+           <input id="result" type="button" name="button" value="Результат" /> <br />
+         </form>
+		 </div>
+		 <div class="footer">
+       <footer>
+          <address><a href="#">Пишите:mail@mail </a></address>
+          <span>&copy;Фамилия И.О., год</span>
+       </footer>
+	   </div>
+	   <script src="test.js"></script>
+   </body>
+ </html>  
